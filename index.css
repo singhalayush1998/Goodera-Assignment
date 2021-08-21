@@ -8,6 +8,9 @@
     z-index: 0;
 
 }
+body{
+    background-color: #EAEAEA;
+}
 .main{
     width: 100%;
     background: linear-gradient(274.83deg, #5DB0DF 0.58%, #5D7ADF 74.3%);
@@ -100,4 +103,38 @@
     color: white;
     border-radius: 10px;
 }
-                                                                    
+
+
+                                                        /* Cards */
+
+.allCards{
+    width: 85%;
+    margin: auto;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 47% 47%;
+    gap: 4%;
+}
+.card{
+    background-color: white;
+    padding: 2%;
+    border-radius: 2rem;
+    gap: 10px;
+}
+.card>div:nth-child(2)>div:nth-child(2){
+    width: 90px;
+    /* text-align: right; */
+    margin: 0 0 0 60%;
+    border: 2px solid #F28A96;
+    border-radius: .5rem;
+    padding: 2%;
+}
+                                                    
+
+
+
+
+
+
+
+    
