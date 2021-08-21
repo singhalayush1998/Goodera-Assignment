@@ -13,13 +13,19 @@
     background: linear-gradient(274.83deg, #5DB0DF 0.58%, #5D7ADF 74.3%);
     height: 364px;
 }
+.none{
+    outline: none;
+    border: none;
+}
 
 .displayFlex{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+                                                                        /* Nav */
 .main>div{
-    width: 87%;
+    width: 85%;
     margin: auto;
 }
 .logo{
@@ -29,7 +35,6 @@
     font-weight: 600;
 }
 .nav{
-    
     padding: 2rem 0px;
     color: white;
 }
@@ -41,23 +46,58 @@
     width: 15%;
 }
 
+                                                                    /* heading */
+
 .heading>p:nth-child(1){
-    margin-top: 2rem;
-    font-size: 48px;
+    margin: 2rem 0 0 0 ;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 72px;
     letter-spacing: 0em;
     text-align: left;
     color: white;
 }
 .heading>p:nth-child(2){
-    margin: -1rem 0;
     padding: 0;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-style: normal;
     line-height: 30px;
     font-weight: 200;
     text-align: left;
     color: white;
 }
+
+                                                                    /* search box */
+
+
+#searchbox {
+    background: #fff;
+    height: 100px;
+    border-radius: 15px;
+    padding: 0px 20px;
+    width: 82%;
+    margin: auto;
+    margin-top: -3.2rem;
+    /* align-items: center; */
+}
+.searchTab {
+    gap: 10px;
+}
+.inputbox::placeholder{
+    font-size: 17px;
+}
+.selectbox{
+    width: 300px;
+    color: #7B7B7B;
+    font-size: 17px;
+}
+.searchbtn {
+    width: 280px;
+    background: #f07987;
+    font-size: 24px;
+    height: 60px;
+    font-style: bold;
+    color: white;
+    border-radius: 10px;
+}
+                                                                    
